@@ -1,0 +1,23 @@
+{
+    "name": "dptools/ali-iot-helper",
+    "description": "阿里云物联网接口封装",
+    "authors": [
+        {
+            "name": "dptools",
+            "email": "149022511@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DPTools\\AliIotHelper\\":"src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DPTools\\AliIotHelper\\Tests\\":"tests"
+        }
+    },
+    "require": {
+        "alibabacloud/iot": "^1.8"
+    }
+}
